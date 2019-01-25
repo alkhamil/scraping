@@ -8,11 +8,8 @@ import os
 
 chrome_options = Options()
 chrome_options.add_argument("--window-size=1366x768")
-# path location driver windows
+# path location driver
 chrome_driver = 'C:/Data/Project/Github/scraping/driver/chromedriver.exe'
-# path location driver linux
-# chrome_driver = 'var/www/driver/cromedriver'
-
 browser = webdriver.Chrome(
     chrome_options=chrome_options, executable_path=chrome_driver)
 

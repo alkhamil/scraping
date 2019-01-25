@@ -16,6 +16,7 @@ chrome_driver = 'C:/Data/Project/Github/scraping/driver/chromedriver.exe'
 browser = webdriver.Chrome(
     chrome_options=chrome_options, executable_path=chrome_driver)
 
+
 browser.get('https://datatables.net/examples/styling/display.html')
 time.sleep(3)
 # select 100
